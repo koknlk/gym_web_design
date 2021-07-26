@@ -1,0 +1,82 @@
+﻿::-webkit-scrollbar {
+    display:none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    font-weight:600;
+}
+
+html {
+    font-size: 80.2%;
+}
+
+body { 
+    overflow-x: hidden;
+    
+}
+body #footer {
+    background:#000;
+    overflow-x: hidden;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 90%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem 5rem;
+    z-index: 1000;
+}
+
+    #header .logo {
+        background: white;
+        border-radius: 50%;
+    }
+
+.header-active {
+    background: rgba(0, 0, 0, 0.6);
+    height: 3.5rem;
+    box-shadow: .2rem 0 .5rem #000;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a {
+    margin-right: 4rem;
+    color: antiquewhite;
+    font-size: 1.5rem;
+    text-decoration: none;
+    }
+
+nav ul li a:hover {
+    color: #071057;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
